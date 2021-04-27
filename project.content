@@ -4,4 +4,13 @@ EmployeeManagementServiceSoap12Binding\getEmployeeDetails.xml
 EmployeeManagementServiceSoap11Binding\addEmployee.xml
 EmployeeManagementServiceSoap11Binding\deleteEmployee.xml
 EmployeeManagementServiceSoap11Binding\getEmployeeDetails.xml
-E2ETests\HappyPath.xml
+CalculatorSoap12\Add.xml
+CalculatorSoap12\Divide.xml
+CalculatorSoap12\Multiply.xml
+CalculatorSoap12\Subtract.xml
+CalculatorSoap\Add.xml
+CalculatorSoap\Divide.xml
+CalculatorSoap\Multiply.xml
+CalculatorSoap\Subtract.xml
+EmployeeManagementService\HappyPath.xml
+CalculatorAPI\HappyPath.xml
