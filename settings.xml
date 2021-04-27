@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="771bb11a-ff39-4e6c-b236-ebd2f3cc7c08" created="3.7.0" activeEnvironment="Default environment" name="EmployeeManagementService" resourceRoot="" compositeProjectFormat="1.3" updated="3.7.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="771bb11a-ff39-4e6c-b236-ebd2f3cc7c08" created="3.7.0" activeEnvironment="Default environment" name="EmployeeManagementService" resourceRoot="" compositeProjectFormat="1.3" updated="3.7.0" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Settings File Password" value=""/>
   <con:entry key="Report Format(s)" value="XML"/>
   <con:entry key="Host:Port" value=""/>
@@ -35,7 +35,7 @@
   <con:entry key="Domain" value=""/>
   <con:entry key="Tool Args" value=""/>
   <con:entry key="Save Project" value="true"/>
-</xml-fragment>]]></con:setting></con:settings><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting/><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+</xml-fragment>]]></con:setting><con:setting id="771bb11a-ff39-4e6c-b236-ebd2f3cc7c08fileName">ReadyAPI-master</con:setting></con:settings><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to ReadyAPI functional tests
 
 // If hardcoding the token, uncomment and change line 5
