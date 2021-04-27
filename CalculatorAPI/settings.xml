@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="3d433606-12f6-4421-a2a2-7d4c3b47f204" name="CalculatorAPI" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="3d433606-12f6-4421-a2a2-7d4c3b47f204fileName">CalculatorAPI</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
