@@ -2,6 +2,9 @@
 
 ## Introduction:
 
+Webservice - Integration of Heterogenous applications is possible via Webservice Mechanism. WebService is an application/Business logic that is accessible using standard internet protocols via XML messaging System.
+- Since it uses XML , it is OS/Platform and programming language independent.
+
 - Ready API is tool by SmartBear company
 - It is used for Functional test, Performance test & Security test.
 - I have installed the trial version - available for 2 weeks
