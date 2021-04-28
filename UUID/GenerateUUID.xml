@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="c7abe46d-03f3-45ca-aace-50ffc77a978a" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GenerateUUID" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="c7abe46d-03f3-45ca-aace-50ffc77a978afileName">GenerateUUID</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="621e24c6-4620-48de-87aa-4026d7b137fa" name="UUID" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="621e24c6-4620-48de-87aa-4026d7b137fafileName">UUID</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>
