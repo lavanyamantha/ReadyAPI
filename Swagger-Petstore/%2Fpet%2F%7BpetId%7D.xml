@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/pet/{petId}" path="/pet/{petId}" id="fdaf6fd5-aab7-4e1a-9e29-e39a052f984c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="fdaf6fd5-aab7-4e1a-9e29-e39a052f984cfileName">%2Fpet%2F%7BpetId%7D</con:setting></con:settings><con:parameters><con:parameter required="true"><con:name>petId</con:name><con:style>TEMPLATE</con:style><con:dataType>integer</con:dataType><con:description>Pet id to delete</con:description></con:parameter></con:parameters><con:method name="getPetById" id="544bc60e-22dc-4ea7-9847-60027c941c08" method="GET"><con:description>Returns a single pet&#13;
+Find pet by ID</con:description><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrl>
+      <photoUrls>string</photoUrls>
+   </photoUrl>
+   <tag>
+      <Tag>
+         <id>0</id>
+         <name>string</name>
+      </Tag>
+   </tag>
+   <status>available</status>
+</Pet>]]></con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent>{&#13;
+  "id" : 0,&#13;
+  "category" : {&#13;
+    "id" : 0,&#13;
+    "name" : "string"&#13;
+  },&#13;
+  "name" : "doggie",&#13;
+  "photoUrls" : [ "string" ],&#13;
+  "tags" : [ {&#13;
+    "id" : 0,&#13;
+    "name" : "string"&#13;
+  } ],&#13;
+  "status" : "available"&#13;
+}</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:request name="Request 1" id="11a5ec00-13d1-459b-8dec-7af3136a5320" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method><con:method name="updatePetWithForm" id="981fe6dd-ccca-4eea-a52d-1700201bfb85" method="POST"><con:description>&#13;
+Updates a pet in the store with form data</con:description><con:settings/><con:parameters><con:parameter><con:name>name</con:name><con:style>QUERY</con:style><con:description>Updated name of the pet</con:description></con:parameter><con:parameter><con:name>status</con:name><con:style>QUERY</con:style><con:description>Updated status of the pet</con:description></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>405</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>405</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="4ae85b8b-f972-4575-b664-d0266611faa5" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method><con:method name="deletePet" id="f3481c72-5056-48c6-b910-1eac6513f5df" method="DELETE"><con:description>&#13;
+Deletes a pet</con:description><con:settings/><con:parameters><con:parameter><con:name>api_key</con:name><con:style>HEADER</con:style><con:description xsi:nil="true"/></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:request name="Request 1" id="4bae7f92-2dd4-42b1-9185-a4c3a84abc08" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>
